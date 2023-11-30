@@ -14,7 +14,7 @@ The script collected over 120,000 rows of data.
 
 #Zara Material Scraping:         
 For to scrap each product's material information and its origin data, 
-I used to asyncio.sleep() set at 1sec for every 250 requests to avoid my IP getting blocked.
+I used asyncio.sleep() set at 1sec for every 250 requests to avoid my IP getting blocked.
 After making for over 120,000 requests for a total of 7hours, the data was collected was 189 columns and 123,000 rows.
 Then after careful observation and inferences, I was able to get the columns to 18. 
 
